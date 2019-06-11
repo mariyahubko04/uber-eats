@@ -16,7 +16,7 @@
   text-overflow: ellipsis;
   outline: none;
   font: inherit;
-  background: url("/images/icons/search.svg") left 5px bottom 15px no-repeat;
+  background: url(../images/icons/search.svg) left 5px bottom 15px no-repeat;
 }
 
 .main-section__search-field::-webkit-input-placeholder {
