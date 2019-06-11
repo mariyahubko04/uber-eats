@@ -1,0 +1,68 @@
+.catalog {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-grid-columns: (auto)[3];
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 19px;
+  padding-top: 16px;
+}
+
+.catalog__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.catalog__item--image {
+  width: 100%;
+  height: 256px;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
+}
+
+.catalog__item--image img {
+  width: inherit;
+  height: inherit;
+}
+
+.catalog__item--image img:hover {
+  -webkit-transform: translate(0, -8px);
+  transform: translate(0, -8px);
+}
+
+.catalog__item--name {
+  color: #111;
+  text-decoration: none;
+}
+
+.catalog__item--name h3 {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  padding: 16px 0 4px;
+}
+
+.catalog__item--cuisine {
+  font-size: 14px;
+  line-height: 21px;
+  color: #626262;
+}
+
+.catalog__item--delivery-time {
+  font-size: 13px;
+  line-height: 21px;
+  padding: 4px 0 20px;
+}
+
+/*# sourceMappingURL=catalog.css.map */

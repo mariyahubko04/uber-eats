@@ -1,0 +1,111 @@
+.header {
+  box-shadow: 0px 0px 16p $colorBoxShadowHeader;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    max-width: $maxWidthContentDesktop;
+    height: 76px;
+    font-family: Roboto;
+    margin: auto;
+  }
+
+  &__logo {
+    display: block;
+  }
+
+  &__delivery {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    padding-left: 10px;
+  }
+
+  &__delivery--asap {
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid $colorBorderHeader;
+    border-radius: 2px;
+    height: 40px;
+    align-self: center;
+    background-color: #fff;
+  }
+
+  &__delivery--text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    color: #626262;
+    align-self: center;
+    padding: 0 10px;
+  }
+
+  &__delivery--adress {
+    border: 1px solid $colorBorderHeader;
+    height: 40px;
+    border-radius: 2px;
+    font-size: 16px;
+    align-self: center;
+    background: url("/images/location.svg") 12px center no-repeat;
+    padding-left: 35px;
+  }
+
+  &__delivery--adress::placeholder {
+    color: #1d1d1d;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 216px;
+    margin-left: 16px;
+  }
+
+  &__button--auth {
+    border: 1px solid $colorBorderHeader;
+    border-radius: 2px;
+    color: #1d1d1d;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  &__button--register {
+    color: #fff;
+    background-color: #111;
+    margin-left: 10px;
+  }
+
+  &__button--auth:hover {
+    background-color: $colorHoverBootom;
+    color: #fff;
+  }
+
+  &__button--basket:hover {
+    animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation;
+  }
+
+  @keyframes trambling-animation {
+
+    0%,
+    50%,
+    100% {
+      transform: rotate(0deg);
+    }
+
+    10%,
+    30% {
+      transform: rotate(-10deg);
+    }
+
+    20%,
+    40% {
+      transform: rotate(10deg);
+    }
+  }
+}
