@@ -62,7 +62,7 @@
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
-  background: url("/images/location.svg") 12px center no-repeat;
+  background: url(/images/icons/location.svg) 12px center no-repeat;
   padding-left: 35px;
 }
 
