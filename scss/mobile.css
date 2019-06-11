@@ -68,6 +68,11 @@
   }
 
   .footer__nav-name {
+    padding-bottom: 20px;
+  }
+
+  .footer__social {
+    margin-top: 0;
     padding-bottom: 40px;
   }
 
