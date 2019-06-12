@@ -1,0 +1,38 @@
+@media (max-width: 1023px) {
+  .header__top {
+    max-width: 795px;
+  }
+
+  .header__logo {
+    width: 106px;
+    height: 13px;
+  }
+
+  .main-section {
+    max-width: 795px;
+  }
+
+  .catalog {
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 795px;
+  }
+
+  .catalog__item--image img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .header__delivery--asap {
+    font-size: 13px;
+  }
+
+  .header__delivery--text {
+    font-size: 13px;
+  }
+
+  .header__delivery--adress {
+    font-size: 13px;
+  }
+}
+/*# sourceMappingURL=tablet.css.map */

@@ -1,0 +1,173 @@
+.header {
+  -webkit-box-shadow: 0px 0px 16px #bab8b8;
+  box-shadow: 0px 0px 16px #bab8b8;
+}
+
+.header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: 962px;
+  height: 76px;
+  font-family: Roboto;
+  margin: auto;
+}
+
+.header__logo {
+  display: block;
+}
+
+.header__delivery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: auto;
+  padding-left: 10px;
+}
+
+.header__delivery--asap {
+  font-size: 16px;
+  text-transform: uppercase;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  height: 40px;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  background-color: #fff;
+}
+
+.header__delivery--text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  color: #626262;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  padding: 0 10px;
+}
+
+.header__delivery--adress {
+  border: 1px solid #e0e0e0;
+  height: 40px;
+  width: 100%;
+  border-radius: 2px;
+  font-size: 16px;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  background: url(../images/icons/location.svg) 12px center no-repeat;
+  padding-left: 35px;
+}
+
+.header__delivery--adress::-webkit-input-placeholder {
+  color: #1d1d1d;
+}
+
+.header__delivery--adress:-ms-input-placeholder {
+  color: #1d1d1d;
+}
+
+.header__delivery--adress::-ms-input-placeholder {
+  color: #1d1d1d;
+}
+
+.header__delivery--adress::placeholder {
+  color: #1d1d1d;
+}
+
+.header__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 216px;
+  margin-left: 16px;
+}
+
+.header__button--auth {
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  color: #1d1d1d;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.header__button--register {
+  color: #fff;
+  background-color: #111;
+  margin-left: 10px;
+}
+
+.header__button--auth:hover {
+  background-color: #48db43;
+  color: #fff;
+}
+
+.header__button--basket:hover {
+  -webkit-animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation;
+  animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation;
+}
+
+@-webkit-keyframes trambling-animation {
+
+  0%,
+  50%,
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  10%,
+  30% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  20%,
+  40% {
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+}
+
+@keyframes trambling-animation {
+
+  0%,
+  50%,
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  10%,
+  30% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  20%,
+  40% {
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,
+    user-scalable=no,
+    initial-scale=1.0,
+    maximum-scale=1.0,
+    minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Uber eats</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&amp;display=swap&amp;subset=cyrillic"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__top">
+      <a href="#">
+        <img class="header__logo" src="images/icons/logo.svg" alt="Uber eats">
+      </a>
+
+      <form class="header__delivery" method="POST">
+        <select class="header__delivery--asap">
+          <option>asap</option>
+        </select>
+        <span class="header__delivery--text">to</span>
+        <label>
+        <input class="header__delivery--adress" type="text" placeholder="ul. Tarasivska St, 16" required>
+        </label>
+        <label>
+        <input class="header__delivery--button visually-hidden " type="button" value="">
+        </label>
+      </form>
+
+      <div class="header__button">
+        <a href="#/" class="header__button--auth">Sign In</a>
+        <a href="#/" class="header__button--auth header__button--register">Register</a>
+        <a href="#/"><img class="header__button--basket" src="images/icons/basket.svg" alt="shopping-cart"></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main-section">
+    <form class="main-section__search" method="GET">
+      <label>
+      <input class="main-section__search-field" type="text" placeholder="Search for restaurant or cuisine">
+      </label>
+      <label>
+      <input class="main-section__search--button visually-hidden " type="button" value="">
+      </label>
+    </form>
+
+    <form class="main-section__delivery" method="POST">
+      <span class="header__delivery--text">When</span>
+      <span class="header__delivery--text">to</span>
+      <label>
+      <select class="header__delivery--asap">
+        <option>asap</option>
+      </select>
+      </label>
+      <label>
+      <input class="header__delivery--adress" type="text" placeholder="ul. Tarasivska St, 16" required>
+      </label>
+      <label>
+        <input class="main-section__delivery--button visually-hidden " type="button" value="">
+      </label>
+    </form>
+
+    <div class="main-section__button">
+      <a href="#/"><img class="header__button--basket" src="images/basket.svg" alt="shopping-cart"></a>
+    </div>
+
+    <h1 class="main-section__heading">Kyiv Restaurants</h1>
+
+    <section class="catalog">
+
+      <article class="catalog__item">
+        <a href="#/" class="catalog__item--image">
+          <img src="images/mcdonalds.png" alt="mcdonalds">
+        </a>
+        <a href="#/" class="catalog__item--name">
+          <h2>Макдональдс</h2>
+        </a>
+        <p class="catalog__item--cuisine">$$ • Бургери</p>
+        <p class="catalog__item--delivery-time">25 - 35 Min</p>
+      </article>
+
+      <article class="catalog__item">
+        <a href="#/" class="catalog__item--image">
+          <img src="images/sushi.png" alt="wokwei">
+        </a>
+        <a href="#/" class="catalog__item--name">
+          <h2>WOKWEI</h2>
+        </a>
+        <p class="catalog__item--cuisine">₴ • Китайська • Азіатська</p>
+        <p class="catalog__item--delivery-time">40 - 50 Min</p>
+      </article>
+
+      <article class="catalog__item">
+        <a href="#" class="catalog__item--image">
+          <img src="images/hot-dog.png" alt="hot-dog">
+        </a>
+        <a href="#/" class="catalog__item--name">
+          <h2>YIZHA</h2>
+        </a>
+        <p class="catalog__item--cuisine">₴₴ • Американська • Бургери • Вулична їжа</p>
+        <p class="catalog__item--delivery-time">35 - 45 Min</p>
+      </article>
+
+      <article class="catalog__item">
+        <a href="#/" class="catalog__item--image">
+          <img src="images/salads.png" alt="salads">
+        </a>
+        <a href="#/" class="catalog__item--name">
+          <h2>Musafir (вул. Саксаганського)</h2>
+        </a>
+        <p class="catalog__item--cuisine">₴₴ • Близькосхідна</p>
+        <p class="catalog__item--delivery-time">30 - 40 Min</p>
+      </article>
+
+      <article class="catalog__item">
+        <a href="#/" class="catalog__item--image">
+          <img src="images/wok.png" alt="wok">
+        </a>
+        <a href="#/" class="catalog__item--name">
+          <h2>WOKWEI</h2>
+        </a>
+        <p class="catalog__item--cuisine">₴ • Китайська • Азіатська</p>
+        <p class="catalog__item--delivery-time">40 - 50 Min</p>
+      </article>
+
+      <article class="catalog__item">
+        <a href="#/" class="catalog__item--image">
+          <img src="images/deserts.png" alt="deserts">
+        </a>
+        <a href="#/" class="catalog__item--name">
+          <h2>Milk Bar</h2>
+        </a>
+        <p class="catalog__item--cuisine">₴₴ • Десерти • Європейська</p>
+        <p class="catalog__item--delivery-time">25 - 35 Min</p>
+      </article>
+
+      <article class="catalog__item">
+        <a href="#/" class="catalog__item--image">
+          <img src="images/pizza.png" alt="pizza">
+        </a>
+        <a href="#/" class="catalog__item--name">
+          <h2>Mimosa Brooklyn Pizza</h2>
+        </a>
+        <p class="catalog__item--cuisine">₴₴ • Італійська • Піца • Американська</p>
+        <p class="catalog__item--delivery-time">15 - 25 Min</p>
+      </article>
+
+      <article class="catalog__item">
+        <a href="#/" class="catalog__item--image">
+          <img src="images/sushi-set.png" alt="sushi-set">
+        </a>
+        <a href="#/" class="catalog__item--name">
+          <h2>To Be</h2>
+        </a>
+        <p class="catalog__item--cuisine">₴₴ • Японська • Азіатська • Суші</p>
+        <p class="catalog__item--delivery-time">25 - 35 Min</p>
+      </article>
+
+      <article class="catalog__item">
+        <a href="#/" class="catalog__item--image">
+          <img src="images/grilled-beef.png" alt="grilled-beef">
+        </a>
+        <a href="#/" class="catalog__item--name">
+          <h2>Druzi Cafe (вул. Прорізна)</h2>
+        </a>
+        <p class="catalog__item--cuisine">₴₴ • Американська • Сучасна європейська • У...</p>
+        <p class="catalog__item--delivery-time">30 - 40 Min</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <section class="footer__section">
+      <div class="footer__logo">
+        <a href="#">
+          <img src="images/icons/white-logo.svg" alt="logo">
+        </a>
+      </div>
+      <hr class="hr">
+
+      <div class="footer__nav">
+        <div class="footer__column">
+          <form class="footer__nav-lang">
+            <select class="footer__nav-lang-input">
+              <option class="footer__nav-lang-input" value="РУССКИЙ">РУССКИЙ</option>
+              <option class="footer__nav-lang-input" selected value="ENGLISH">ENGLISH</option>
+              <option class="footer__nav-lang-input" value="УКРАЇНСЬКА">УКРАЇНСЬКА</option>
+            </select>
+          </form>
+
+          <p class="footer__nav-name">
+            <span class="footer__nav-name-hash">#</span>
+            <span class="footer__nav-name-name">UberEats</span>
+          </p>
+
+          <div class="footer__social">
+            <a href="#">
+              <img src="images/icons/facebook.svg" alt="facebook-icon">
+            </a>
+            <a class="footer__social--twitter" href="#">
+              <img src="images/icons/twitter.svg" alt="twitter-icon">
+            </a>
+            <a class="footer__social--instagram" href="#">
+              <img src="images/icons/instagram.svg" alt="instagram-icon">
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__column">
+          <a href="#/">About UberEats</a>
+          <a href="#/">Become a Delivery Partner</a>
+          <a href="#/">Become a Restaurant Partner</a>
+        </div>
+
+        <div class="footer__column">
+          <a href="#/">See all cities</a>
+          <a href="#/">Pricing</a>
+          <a href="#/">Help</a>
+          <a href="#/">FAQs</a>
+        </div>
+      </div>
+      <hr class="hr">
+
+      <div class="footer__app">
+        <a class="appstore" href="#/" target="_blank">
+          <img src="images/download_apple.png" alt="appstore-icon">
+        </a>
+
+        <a class="gplay" href="#/" target="_blank">
+          <img src="images/google_play.png" alt="googleplay-icon">
+        </a>
+      </div>
+      <hr class="hr">
+
+      <div class="footer__rights">
+        <p>© 2019 Uber Technologies Inc.</p>
+        <a class="link" href="#/">Privacy</a>
+        <a class="link" href="#/">Terms</a>
+      </div>
+
+      <a href="#" class="arrow-to-top">
+      </a>
+    </section>
+  </footer>
+</body>
+
+</html>
