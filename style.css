@@ -30,6 +30,12 @@ body {
   background-position: center;
 }
 
+@media (max-width: 639px) {
+  .arrow-to-top {
+    display: none;
+  }
+}
+
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
